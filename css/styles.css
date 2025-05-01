@@ -1,0 +1,211 @@
+.body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+  
+.header{
+    background-color:  #5e0909;
+    height: 49px;
+    width: 100%;
+    display: flex;  
+}
+.burg-li{
+    margin-left: 15px;
+}
+.logo{
+    width: 90px;
+    height: 45px;
+    margin: 0px 575px 0px 575px;
+}
+.geolab-logo{width: 60px;
+    height: 45px;
+    margin: 2px 0px 0px 5px;}
+.user-logo{
+    width: 40px;
+    height: 40px;}
+.main-div{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image:url(../img/main2p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 20px auto;
+    border: none;
+}
+.sec-cont{
+    display: flex;
+}
+.sec-div1{
+    height: 450px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../img/911.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.sec-div2{height: 450px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../img/panamera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+
+}
+.sec-div3{height: 450px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../img/718.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+}
+.sec-div4{height: 450px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../img/tycan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+}
+.h2{font-size: 40px;
+    padding: 7px 0px 0px 7px ;
+    color: rgb(0, 0, 0);
+}
+
+.p{ font-size: 20px;
+    text-align: center;
+    padding: 288px 19px 5px 19px;
+    color: rgb(255, 255, 255);
+    }
+h3{ 
+    font-size: 20px;
+    margin: 0px 0px -22px 18px;
+    color: rgb(255, 255, 255);
+}
+
+.btn1{
+    background-color:black;
+    height: 40px;
+    width: 222px;
+    color: white;
+    margin: 0px 0px 4px 41px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btn2{
+    background-color: black;
+    height: 40px;
+    width: 222px;
+    color: white;
+    margin: 0px 0px 4px 41px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;}
+.about-div{
+    width: 1200px;
+    height: 700px;
+    margin: 34px auto 20px auto;
+}
+.last-div{display: flex;}
+.div-about-more{height: 450px;
+    width: 400px;
+    margin: 15px;
+    background-image: url(../img/firstp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px
+    }
+.div-about-more1{height: 450px;
+    width: 400px;
+    margin: 15px;
+    background-image: url(../img/f1p.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px}
+.div-about-more2{height: 450px;
+    width: 400px;
+    margin: 15px;
+    background-image: url(../img/team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px}
+.div-about-more3{height: 450px;
+    width: 400px;
+    margin: 15px;
+    background-image: url(../img/hotwheelsp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px}
+.btn-last{
+    background-color: black;
+    height: 40px;
+    width: 222px;
+    color: white;
+    margin: 400px 0px 0px 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+ 
+.about-h2{font-size: 40px;
+    padding: 7px 0px 39px 7px;
+    color: rgb(235, 15, 15);}
+.about-p{text-align: center;
+    color: rgb(0, 0, 0);
+    }
+.media-div{
+    width: 100%;
+    height: 250px;
+    background-color:#5e0909;
+}
+.media-h2{
+    font-size: 30px;
+    margin: 0px 0px 15px 50px;
+    color: rgb(255, 255, 255);
+}
+.footer-secttion1{
+    column-gap: 15px;
+}
+.fb-a{width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 95px;}
+.insta-a{width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 95px;}
+.x-a{width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 95px;}
+.yt-a{width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 95px;}
+.link-a{width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 95px;}
+.company-div{
+    margin: -120px 0px 0px 435px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.company-support{
+    color:rgb(255, 255, 255);
+    column-gap: 20px;
+}
+
+
+ 
