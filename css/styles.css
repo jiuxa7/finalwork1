@@ -1,30 +1,44 @@
+*{margin: 0;
+ box-sizing: border-box;}
 .body{
     height: 100%;
-    width: 100%;
+    width: 100;
     background-color: white;
 }
 
   
 .header{
     background-color:  #5e0909;
-    height: 49px;
+    height: 50px;
     width: 100%;
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
+@media (max-width: 1115px) {
+    .header{
+        font-size: 16px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0px;
+    }}
+    
+
 .burg-li{
     margin-left: 15px;
 }
 .logo{
     width: 90px;
-    height: 45px;
-    margin: 0px 575px 0px 575px;
+    height: 43px;
 }
 .geolab-logo{width: 60px;
     height: 45px;
-    margin: 2px 0px 0px 5px;}
+}
 .user-logo{
     width: 40px;
-    height: 40px;}
+    height: 38px;}
 .main-div{
     display: flex;
     width: 100%;
@@ -34,15 +48,37 @@
     background-size: cover;
     background-position: center;
     margin: 0 auto 20px auto;
-    border: none;
 }
+@media (max-width: 1115px) {
+    .main-div{
+        height: 400px;
+        width: 100%;
+    }}
+button:hover{
+    background-color: #5e0909;
+    color: white;
+    cursor: pointer;
+    transition: 3ms ease-in-out;
+    transform: scale(1.1);
+}
+    
+   
 .sec-cont{
     display: flex;
 }
+@media(max-width: 1115px){
+    .sec-cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+}
 .sec-div1{
     height: 450px;
-    width: 300px;
-    margin: 0 auto;
+    width: auto;
+    margin: 15px;
     background-image: url(../img/911.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -51,8 +87,8 @@
 
 }
 .sec-div2{height: 450px;
-    width: 300px;
-    margin: 0 auto;
+    width: auto;
+    margin: 15px;
     background-image: url(../img/panamera.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -61,8 +97,8 @@
 
 }
 .sec-div3{height: 450px;
-    width: 300px;
-    margin: 0 auto;
+    width: auto;
+    margin:15px;
     background-image: url(../img/718.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -70,14 +106,23 @@
     border-radius: 10px
 }
 .sec-div4{height: 450px;
-    width: 300px;
-    margin: 0 auto;
+    width: auto;
+    margin:15px;
     background-image: url(../img/tycan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px
 }
+@media (max-width: 1115px) {
+    .sec-div1 .sec-div2 .sec-div3 .sec-div4{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: 10px 0px;
+    }}
+    
 .h2{font-size: 40px;
     padding: 7px 0px 0px 7px ;
     color: rgb(0, 0, 0);
@@ -87,87 +132,156 @@
     text-align: center;
     padding: 288px 19px 5px 19px;
     color: rgb(255, 255, 255);
+    justify-content: center;
     }
 h3{ 
     font-size: 20px;
     margin: 0px 0px -22px 18px;
     color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 1115px) {
+    .h2 .h3 .p .about-h2 .about-p{
+        font-size: 16px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+        
+    }}
 
 .btn1{
     background-color:black;
-    height: 40px;
-    width: 222px;
+    min-height: 40px;
+    min-width: 222px;
     color: white;
-    margin: 0px 0px 4px 41px;
+    margin: 0px 22px 3px 41px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .btn2{
     background-color: black;
-    height: 40px;
-    width: 222px;
+    min-height: 40px;
+    min-width: 222px;
     color: white;
-    margin: 0px 0px 4px 41px;
+    margin: 0px 22px 3px 41px;
     cursor: pointer;
     border: none;
-    border-radius: 10px;}
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
 .about-div{
-    width: 1200px;
-    height: 700px;
+    width: 100%;
+    min-height: 700px;
     margin: 34px auto 20px auto;
 }
-.last-div{display: flex;}
-.div-about-more{height: 450px;
-    width: 400px;
-    margin: 15px;
+@media screen and (max-width: 1115px) {
+    .about-div{
+        font-size: 16px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        min-width: auto;}}
+
+.last-div{display: flex;
+    justify-content: space-between;
+    }
+@media screen and (max-width: 1115px) {
+    .last-div{
+        font-size: 16px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }}
+.div-about-more{min-height: 450px;
+    width: auto;
+    margin:15px;
     background-image: url(../img/firstp.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px
     }
-.div-about-more1{height: 450px;
-    width: 400px;
+.div-about-more1{min-height: 450px;
+    width: auto;
     margin: 15px;
     background-image: url(../img/f1p.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px}
-.div-about-more2{height: 450px;
-    width: 400px;
+    border-radius: 10px
+    
+    }
+.div-about-more2{min-height: 450px;
+    width: auto;
     margin: 15px;
     background-image: url(../img/team.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px}
+    border-radius: 10px
+    
+    }
 .div-about-more3{height: 450px;
-    width: 400px;
+    width: auto;
     margin: 15px;
     background-image: url(../img/hotwheelsp.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px}
+    border-radius: 10px
+    
+    }
+
+    @media  (max-width: 1115px) {
+        .div-about-more .div-about-more1 .div-about-more2 .div-about-more3{
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+            margin: 10px 0px;
+        }}
 .btn-last{
     background-color: black;
     height: 40px;
     width: 222px;
     color: white;
-    margin: 400px 0px 0px 24px;
+    margin: 393px 20px 0px 20px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
 }
+@media (max-width: 600px) {
+    .btn-last .btn1 .btn2{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }}
  
 .about-h2{font-size: 40px;
     padding: 7px 0px 39px 7px;
-    color: rgb(235, 15, 15);}
+    color: #5e0909;}
 .about-p{text-align: center;
     color: rgb(0, 0, 0);
+    max-width: 1150px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     }
 .media-div{
     width: 100%;
@@ -176,36 +290,49 @@ h3{
 }
 .media-h2{
     font-size: 30px;
-    margin: 0px 0px 15px 50px;
+    margin: 0px 0px 15px 15px;
     color: rgb(255, 255, 255);
 }
+@media (max-width: 700px) {
+    .media-h2{
+        font-size: 30px;
+        font-size: 20px;
+        margin: 0px 0px 0px 65px;
+    }}
 .footer-secttion1{
     column-gap: 15px;
 }
 .fb-a{width: 30px;
     height: 30px;
-    margin: 0px 0px 0px 95px;}
+    margin: 0px 0px 0px 30px;}
 .insta-a{width: 30px;
     height: 30px;
-    margin: 0px 0px 0px 95px;}
+    margin: 0px 0px 0px 30px;}
 .x-a{width: 30px;
     height: 30px;
-    margin: 0px 0px 0px 95px;}
+    margin: 0px 0px 0px 30px;}
 .yt-a{width: 30px;
     height: 30px;
-    margin: 0px 0px 0px 95px;}
+    margin: 0px 0px 0px 30px;}
 .link-a{width: 30px;
     height: 30px;
-    margin: 0px 0px 0px 95px;}
-.company-div{
-    margin: -120px 0px 0px 435px;
+    margin: 0px 0px 0px 30px;}
+@media (max-width: 700px) {
+    .fb-a .insta-a .x-a .yt-a .link-a{
+        width: 20px;
+        height: 20px;
+        margin: 0px 0px 0px 50px;
+    }}
+.footer-div1{display: flex;
+    justify-content: space-between;
+    }
+.footer-p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    margin-right: 70px;
 }
-.company-support{
-    color:rgb(255, 255, 255);
-    column-gap: 20px;
-}
+
 
 
  
